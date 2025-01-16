@@ -1,0 +1,32 @@
+{
+  "student": [
+    {
+      "id": "c6f1",
+      "name": "niranjan",
+      "age": "55",
+      "contact": "45688",
+      "city": "mandideep"
+    },
+    {
+      "id": "f71b",
+      "name": "bipin",
+      "age": "56",
+      "contact": "7895",
+      "city": "up"
+    },
+    {
+      "id": "ad08",
+      "name": "radde",
+      "age": "654",
+      "contact": "1234789",
+      "city": "silavai"
+    },
+    {
+      "id": "fc9e",
+      "name": "radde",
+      "age": "654",
+      "contact": "1234789",
+      "city": "silavai"
+    }
+  ]
+}
