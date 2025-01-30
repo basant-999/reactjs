@@ -31,6 +31,12 @@ const Axios = () => {
         axios.delete(`http://localhost:3000/student/${id}`)
         .then(re=>alert("deleted"))
     }
+
+    function finalsubmit(e){
+        e.preventDefault();
+        axios.put(`http://localhost:3000/student/${editdata.id}`,editdata)
+        .then(r=>alert("updated"))
+    }
     useEffect(()=>{
         axios.get('http://localhost:3000/student')
         .then(res=>{
@@ -63,7 +69,7 @@ const Axios = () => {
                       <td>{e.contact}</td>
                       <td>{e.city}</td>
                       <td><button onClick={()=>mydel(e.id)}>delete</button></td>
-                      <td><button>edit</button></td>
+                      <td><button onClick={()=>{setfrmvisible(true),seteditdata(e)}}>edit</button></td>
   
   
                   </tr>
@@ -73,7 +79,7 @@ const Axios = () => {
             </tbody>
         </table>
          {frmvisible &&(
-            <form>
+            <form onSubmit={finalsubmit}>
             <label htmlFor="id">id</label>
             <input type="text" name='id' value={editdata.id} onChange={hinput} /> <br /> <br />
 
