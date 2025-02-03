@@ -1,0 +1,19 @@
+{
+  "resis":  [
+    {
+        "name":"basant",
+        "age":45,
+        "contact":65555
+    },
+    {
+        "name":"bipm",
+        "age":45,
+        "contact":65555
+    },
+    {
+        "name":"rakesh",
+        "age":45,
+        "contact":65555
+    }
+]
+}
