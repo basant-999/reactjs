@@ -8,6 +8,7 @@ function App() {
   
   return (
     <>
+    
       <cdata.Provider value={data}>
         <Child1 />
       </cdata.Provider>

@@ -1,6 +1,9 @@
 import Counter from "./Counter"
 import Form from "./Form"
 import Frm from "./Frm"
+import PracColor from "./PracColor"
+import PracFrm from "./PracFrm"
+import PracIncrement from "./PracIncrement"
 import State from "./State"
 
 
@@ -24,7 +27,10 @@ function App() {
     <Form/>
     <State/>
     <Counter/>
-    <Frm/>
+    <Frm/> <br />
+    <PracIncrement/>
+    <PracColor/>
+    <PracFrm/>
      
     </>
   )

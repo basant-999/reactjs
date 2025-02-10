@@ -24,7 +24,7 @@ const Frm=()=>{
         <>
         <h1>my name {(st) ? st : ''}</h1>
         <h2>my result is {e}</h2>
-        {/* <input type="text" onChange={hinput} /> <br /> */}
+        <input type="text" onChange={hinput} /> <br />
         <input type="text" onChange={hinput2} />
 
         <button onClick={()=>setSt(true)}>click</button>
