@@ -1,32 +1,11 @@
 {
   "student": [
     {
-      "id": "f71b",
-      "name": "bipin",
-      "age": "56",
-      "contact": "7895",
-      "city": "up"
-    },
-    {
-      "id": "ad08",
-      "name": "radde",
-      "age": "654",
-      "contact": "1234789",
-      "city": "silavai"
-    },
-    {
-      "id": "4309",
-      "name": "salman",
-      "age": "59",
-      "contact": "00000000",
-      "city": "mubai"
-    },
-    {
-      "id": "5314",
-      "name": "tejas",
-      "age": "12",
-      "contact": "333333",
-      "city": "dar"
+      "id": "de07",
+      "name": "nn",
+      "age": "55",
+      "contact": "11",
+      "city": "n"
     }
   ]
 }

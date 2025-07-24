@@ -10,7 +10,7 @@ const PracMemo = () => {
 
     function unkh(){
         console.log("*********")
-        for(var i=0;i<=100000000;i++){}
+        for(var i=0;i<=100000;i++){}
         return num*3
     }
   return (
